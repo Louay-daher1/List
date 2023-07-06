@@ -6,7 +6,7 @@ fetch('https://apiii-mynp.onrender.com/louay')
         let students=document.getElementById('student');
         json.forEach(s => {
           let studentli=document.createElement('li');
-          studentli.innerHTML=s.Name;
+          studentli.innerHTML=s.name;
           students.appendChild(studentli);
 
 
