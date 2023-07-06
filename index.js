@@ -1,6 +1,6 @@
 function getAllStudent() 
 {
-fetch('http://localhost:3000/louay')
+fetch('https://apiii-mynp.onrender.com/louay')
       .then(response => response.json())
       .then(json => {
         let students=document.getElementById('student');
